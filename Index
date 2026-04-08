@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonidas Kwan - Professional Resume</title>
+    <style>
+        :root {
+            --primary: #5b21b6; /* Purple - fits a trendy/fashion retail vibe */
+            --dark: #1e293b;
+            --light-bg: #fdfcfd;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f1f5f9;
+            color: var(--dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .resume-card {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 45px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            border-top: 6px solid var(--primary);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: var(--dark);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .info {
+            font-size: 0.95rem;
+            color: #64748b;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1rem;
+            color: var(--primary);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .entry {
+            margin-bottom: 20px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .entry-sub {
+            color: #7c3aed;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .skill-item strong {
+            display: block;
+            color: var(--dark);
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+
+        .skill-item span {
+            font-size: 0.9rem;
+            color: #475569;
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .resume-card { box-shadow: none; border: none; width: 100%; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-card">
+    <header>
+        <h1>Leonidas Kwan</h1>
+        <div class="info">
+            Sugar Land, TX • 713-265-8569 • leokwan.sltx@gmail.com
+        </div>
+    </header>
+
+    <section>
+        <h2>Objective</h2>
+        <p>
+            Detail-oriented and technically proficient high school senior with a strong background in <strong>hardware assembly, quality control, and customer-facing freelance work.</strong> Proven ability to troubleshoot complex systems and maintain high standards of organization. Seeking to bring a "solution-first" attitude and strong work ethic to the team at Plato's Closet.
+        </p>
+    </section>
+
+    <section>
+        <h2>Experience & Projects</h2>
+        
+        <div class="entry">
+            <div class="entry-header">
+                <span>Technical Freelancer / Hardware Specialist</span>
+                <span>2024 – Present</span>
+            </div>
+            <div class="entry-sub">Custom PC & Keyboard Assembly | Web Solutions</div>
+            <ul>
+                <li><strong>Quality Assurance:</strong> Assembled high-value custom PCs and mechanical keyboards, requiring extreme attention to detail and part authentication.</li>
+                <li><strong>Technical Support:</strong> Actively troubleshoot hardware and software issues independently, resolving glitches to ensure 100% system uptime.</li>
+                <li><strong>Business Operations:</strong> Developed a custom web suite for a client to automate invoicing, demonstrating a strong grasp of data entry and financial accuracy.</li>
+                <li><strong>Communication:</strong> Consulted with clients to translate their visual preferences into physical builds, ensuring high customer satisfaction.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span>Kempner High School</span>
+                <span>Graduation: May 2026</span>
+            </div>
+            <div class="info" style="text-align: left; margin-top: 0;">Sugar Land, TX</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills & Strengths</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <strong>Operational Tech</strong>
+                <span>Rapidly learns POS systems, inventory software, and troubleshooting hardware (printers/registers).</span>
+            </div>
+            <div class="skill-item">
+                <strong>Attention to Detail</strong>
+                <span>Experienced in identifying small defects and authenticating high-quality components and brands.</span>
+            </div>
+            <div class="skill-item">
+                <strong>Programming Stack</strong>
+                <span>Java (Primary), Python (Certified), JavaScript, HTML/CSS.</span>
+            </div>
+            <div class="skill-item">
+                <strong>Work Ethic</strong>
+                <span>Independent problem-solver, punctual, and comfortable in fast-paced environments.</span>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
